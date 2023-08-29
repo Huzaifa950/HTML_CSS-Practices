@@ -1,0 +1,33 @@
+.flexContainer{
+    display: flex;
+    justify-content: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+}
+
+.flexDirection{
+    flex-direction: column;
+    flex-direction: column-reverse; 
+    flex-direction: row-reverse;
+}
+
+.flexHorizontalAlignment{
+    justify-content: space-evenly; 
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: right;
+    justify-content: left;
+}
+
+.flexContainer div{
+    background-color: rgb(127, 29, 218);
+    color: white;
+    font-size: 30px;
+    width: 300px;
+}
+
+.flexWrap{
+    flex-wrap: wrap;
+}
+

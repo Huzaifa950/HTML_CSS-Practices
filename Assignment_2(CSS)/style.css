@@ -1,0 +1,291 @@
+*{
+    padding: 0;
+    margin-left: 10px;
+}
+
+/* Task_1 */
+.header{
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    padding: 15px;
+    justify-content:space-evenly;
+    position:fixed;
+    width: 100%;
+}
+
+.header li{
+    list-style: none;
+    background-color: rgb(185, 184, 184);
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.header li:hover{
+    background-color: rgb(134, 133, 133);
+    border-radius: 10px;
+    padding: 6px;
+}
+
+/* Task_2 */
+/* .vertical{
+    background-color: burlywood;
+    display: flex;
+    flex-direction:column;
+    display: inline-block;
+    padding: 0 1% 100% 1%;
+    position: fixed;
+}
+
+.vertical li{
+    list-style: none;
+    margin: 150% 0 0 0; 
+    padding: 5px;
+    background-color: rgb(59, 68, 65);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.vertical li:hover{
+    background-color: rgb(20, 167, 118);
+    padding: 8px;
+}
+
+div{
+    display:contents;
+}
+
+img{
+    flex:1;
+} */
+
+
+
+/* Task_4 */
+/* body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+  
+  .wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1; 
+    padding: 20px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px; 
+    background-color: #746f6f;
+    text-align: center;
+    position:fixed;
+    margin-top: 47%;
+    width: 100%;
+  } */
+
+
+/* Task_5 */
+/* .main{
+    display: block;
+    border: 5px solid rgb(12, 11, 11);
+    width: 400px;
+    height: 400px;
+    color: rgb(4, 8, 4);
+    text-align: center;
+}
+
+.one{
+    display: block;
+    background-color: rgb(219, 181, 134);
+    width: 300px;
+    height: 300px;
+    margin: 10px 0 0 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+.two{
+    display: block;
+    background-color: rgb(127, 87, 151);
+    width: 200px;
+    height: 200px;
+    margin: 30px 0 0 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+.three{
+    display: block;
+    background-color: rgb(98, 163, 172);
+    width: 100px;
+    height: 100px;
+    margin: 50px 0 0 50px;
+    position: absolute;
+    z-index: 3;
+} */
+
+/* Task_8 */
+.links a{
+    background-color: rgb(130, 184, 142);
+}
+
+
+/* Task_10 */
+.direct > p{
+    font-size: larger;
+    color: rgb(209, 176, 66);
+    text-decoration:line-through;
+}
+
+.direct > div{
+    font-weight: 600;
+    color: rgb(17, 146, 185);
+}
+
+.direct > section{
+    text-decoration:line-through;
+} 
+
+
+/* Task_11 */
+div button:hover{
+    background-color: #27d821;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/* Task_12 */
+.last li:last-child{
+    background-color:rgb(19, 99, 131) ;
+    font-size: x-large;
+    text-decoration: underline;
+    list-style:circle;
+}
+
+
+/* Task_13 */
+label{
+    display: block;
+}
+
+input:focus{
+    border-color: #27d821;
+    outline: none;
+    border-width: 5px;
+}
+
+
+
+
+
+/* Part_2 */
+
+/* 1 */
+/* nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #81f1cc;
+    padding: 10px;
+} */
+
+/* 2 */
+/* nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #81f1cc;
+    padding: 10px;
+} */
+
+/* 3 */
+/* nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: #81f1cc;
+    padding: 10px;
+} */
+
+/* 4 */
+/* nav{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    background-color: #81f1cc;
+    width: fit-content;
+} */
+
+/* 5 */
+/* nav{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content:space-evenly;
+    background-color: #81f1cc;
+    padding: 10px;
+} */
+
+/* 6 */
+/* nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+    background-color: #81f1cc;
+    padding: 10px;
+} */
+
+/* 7 */
+/* nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:left;
+    background-color: #81f1cc;
+    padding: 10px;
+} */
+
+/* 8 */
+/* nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:left;
+    background-color: #81f1cc;
+    padding: 10px;
+} */
+
+/* 9 */
+/* nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:flex-start;
+    background-color: #81f1cc;
+    padding: 10px;
+} */
+
+/* 10 */
+/* nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    background-color: #81f1cc;
+    padding: 10px;
+} */
+
+/* 11 */
+/* nav{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content:flex-start;
+    background-color: #81f1cc;
+    padding: 10px;
+} */

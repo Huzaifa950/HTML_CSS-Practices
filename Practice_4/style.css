@@ -1,0 +1,64 @@
+*{
+
+}
+
+h1{
+    color:red;
+}
+
+h2, p, h3 {
+    font-size: 30px;
+    color: peru !important;
+    
+}
+
+body{
+    font-weight:bolder;
+}
+
+.color{
+    color: black;
+    color: #006450;
+    color: rgb(rgb(201, 98, 98), rgb(10, 82, 10), rgb(0, 0, 0));
+    color: rgba(red, green, blue, 0.5);
+    color: hsla(hue, saturation, lightness, alpha);
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(18, 157, 182);
+    color: white;
+       
+}
+
+.textCenter{
+    text-align:center;
+    opacity: 60%;
+}
+
+.backGround{
+    background-image: url(./ales-nesetril-Im7lZjxeLhg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 70%;
+}
+
+.hRectangle{
+    width: 700px;
+    height: 500px;
+}
+
+.border{
+    border: 2px solid green;
+    border-width: 5px 3px 5px 3px;
+    border-radius: 100px;
+}
+
+.textproperties{
+    font-size:20px;
+    text-align-last: center;
+    font-weight: lighter;
+    font-family: sans-serif;
+    
+}

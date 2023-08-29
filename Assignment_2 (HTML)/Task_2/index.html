@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <!-- Task_1 -->
+        <form>
+            <h1>Task_1</h1>
+            <label for="name">Name :</label>
+            <input class="borderStyle" type="text" id="name" name="name"/>
+        </form>
+        <form>
+            <select name="dropDown" id="dropDown">
+                <option value="select" disabled selected>Select Country</option>
+                <option value="pakistan">Pakistan</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="uae">UAE</option>
+            </select>
+        </form>
+        <hr>
+
+        <!-- Task_2 -->
+        <form>
+            <h1>Task_2</h1>
+            <label for="message">Message:</label>
+            <textarea class="borderStyle" maxlength="100" cols="40" rows="10"></textarea>
+        </form>
+        <hr>
+
+        <!-- Task_3 -->
+        <form>
+            <h1>Task_3</h1>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass">
+            </div>
+            
+            <label for="confirm">I agree to the terms and conditions</label>
+            <input type="checkbox" name="confirm" id="confirm">
+        </form>
+        <hr>
+
+        <!-- Task_4 -->
+        <form>
+            <h1>Task_4</h1>
+            <label><b>Gender:</b></label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender">
+        </form>
+        <hr>
+
+        <!-- Task_5 -->
+        <form>
+            <h1>Task_5</h1>
+            <label for="image">Upload Image:</label>
+            <input type="file"  name="image" id="image" accept="image">
+        </form>
+        <hr>
+
+        <!-- Task_6 -->
+        <form>
+            <h1>Task_6</h1>
+            <label for="range">Range: </label>
+            <input type="range" min="1" max="100">
+        </form>
+        <hr>
+
+        <!-- Task_7 -->
+        <form>
+            <h1>Task_7</h1>
+            <label for="age">Age: </label>
+            <input type="number" name="age" id="age" min="18" max="65">
+        </form>
+        <hr>
+
+        <!-- Task_8 -->
+        <form>
+            <h1>Task_8</h1>
+            <label for="fav">Choose your favourite Color:</label>
+            <input type="color" id="fav" name="fav">
+        </form>
+        <hr>
+
+        <!-- Task_9 -->
+        <form>
+            <h1>Task_9</h1>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </form>
+        <hr>
+
+        <!-- Task_10 -->
+        <form>
+            <h1>Task_10</h1>
+            <label for="web"> Paste Valid URL:</label>
+            <input type="url" id="web" name="web" accept="url">
+        </form>
+        <hr>
+
+        <!-- Task_11 -->
+        <form>
+            <h1>Task_11</h1>
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="quantity" id="quantity" min="1" max="10">
+        </form>
+        <hr>
+
+        <!-- Task_12 -->
+        <h1>Task_12</h1>
+        <label for="hobby"><b>Select your Hobbies:</b></label>
+        <form>
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="sports" name="hobby">
+        </form>
+        <form>
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="reading" name="hobby">
+        </form>
+        <form>
+            <label for="cooking">Cooking</label>
+            <input type="checkbox" id="cooking" name="hobby">
+        </form>
+        <form>
+            <label for="travelling">Travelling</label>
+            <input type="checkbox" id="travelling" name="hobby">
+        </form>
+        <hr>
+
+        <!-- Task_13 -->
+        <form>    
+            <h1>Task_13</h1>
+            <select name="dropDown" id="dropDown">
+                <option value="select" hidden>FavoriteColour
+                </option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="purple">Purple</option>
+            </select>
+        </form>
+        <hr>
+
+        <!-- Task_14 -->
+        <form>
+            <h1>Task_14</h1>
+            <label for="time">Select Time:</label>
+            <input type="time" id="time" class="time">
+        </form>
+        <hr>
+            
+        <!-- Task_15 -->
+        <form>
+            <h1>Task_15</h1>
+            <label for="search"></label>
+            <input type="search" name="search" id="search" placeholder="Search Here">
+        </form>
+        <hr>
+
+        <!-- Task_16 -->
+        <form>
+            <h1>Task_16</h1>
+            <label for="plan"><b>Membership Plan:</b></label>
+            <label for="basic">Basic</label>
+            <input type="radio" name="plan" id="plan">
+
+            <label for="premium">Premium</label>
+            <input type="radio" name="plan" id="plan">
+
+            <label for="pro">Pro</label>
+            <input type="radio" name="plan" id="plan">
+        </form>
+        <hr>
+
+        <!-- Task_17 -->
+        <form id="color" method="get">
+            <h1>Task_17</h1>
+            <label for="Selector">Choose color</label>
+            <input style="width: 150px; height: 30px; display: block;" type="color" name="Selector" id="Selector">
+            <input class="submit" type="submit" onclick="color(); 
+            return false;"> 
+            <script>
+                function color() {
+                let newColor = document.getElementById("Selector").value; 
+                document.getElementById("color").style.backgroundColor = newColor;
+                }
+            </script>
+        </form>
+
+
+        <!-- Task_18 -->
+        <form>
+            <h1>Task_18</h1>
+            <label for="week"><b>Select Week:</b></label>
+            <input type="week" id="week" name="week">
+        </form>
+        <hr>
+
+        <!-- Task_19 -->
+        <form>
+            <h1>Task_19</h1>
+            <label for="rate"><b>Rating:</b></label>
+            <input type="range" name="rate" id="rate" mibn="1" max="5">
+        </form>
+        <hr>
+
+        <!-- Task_21 -->
+        <form>
+            <h1>Task_21</h1>
+            <label for="vol"><b>Select Volume:</b></label>
+            <input type="range" name="vol" id="vol" min="0" max="100">
+        </form>
+        <hr>
+
+        <!-- Task_22 -->
+        <form>
+            <h1>Task_22</h1>
+            <label for="date"><b>Select Date:</b></label>
+            <input type="date" name="date" id="date">
+        </form>
+        <form>
+            <label for="time"><b>Select Time:</b></label>
+            <input type="time" name="time" id="time">
+        </form>
+        <hr>
+
+        <!-- Task_23 -->
+        <form>
+            <h1>Task_23</h1>
+            <label for="pdf"><b>Select PDF File:</b></label>
+            <input type="file" id="pdf" name="pdf" accept="pdf">
+        </form>
+        <hr>
+
+        <!-- Task_24 -->
+        <form>
+            <h1>Task_24</h1>
+            <label for="agegroup"><b>Select Age Group:</b></label>
+            <select id="dropdown" name="dropdown" width="100px">
+                <option id="agegroup" hidden>Age Group</option>
+                <option id="child">Child</option>
+                <option id="teenager">Teenager</option>
+                <option id="adult">Adult</option>
+                <option id="senior">Senior</option>
+            </select>
+        </form>
+        <hr>
+
+        <!-- Task_25 -->
+        <form>
+            <h1>Task_25</h1>
+            <label for="subs"><b>Subscribe to Newsletter </b></label>
+            <input type="checkbox" id="subs" name="subs" required>
+        </form>
+        <form>
+            <label for="mail" style="margin-right: 30px;"><B>Email Address:</B></label>
+            <input type="email" name="mail" id="mail">
+        </form>
+        <hr>
+
+        <!-- Task_26 -->
+        <form>
+            <h1>Task_26</h1>
+            <label for="lang" style="margin-right: 30px;"><b>Preferred Language:</b></label>
+            <label for="eng"></label>English</label>
+            <input type="radio" name="lang" id="eng">
+            <label for="spa"></label>Spanish</label>
+            <input type="radio" name="lang" id="spa">
+            <label for="frn"></label>French</label>
+            <input type="radio" name="lang" id="frn">
+            <label for="ger"></label>German</label>
+            <input type="radio" name="lang" id="ger">
+        </form>
+        
+        <!-- Task_27 -->
+        <form>
+            <h1>Task_27</h1>
+            <label form="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="0">
+            <select>
+                <option hidden>Unit</option>
+                <option id="kg">kg</option>
+                <option id="lbps">lbps</option>
+                <option id="pieces">pieces</option>
+                <option id="liters">liters</option>
+            </select>
+        </form>
+
+        <!-- Task_28 -->
+        <form>
+            <h1>Task_28</h1>
+            <label for="skills"><h2>Skills</h2></label>
+            <div>
+                <label for="prog">Programming</label>
+                <input type="checkbox" id="prog" name="prog">
+            </div>
+            <div>
+                <label for="des">Design</label>
+                <input type="checkbox" id="des" name="des">
+            </div>
+            <div>
+                <label for="comm">Communication</label>
+                <input type="checkbox" id="comm" name="comm">
+            </div>
+            <div>
+                <label for="lead">Leadership</label>
+                <input type="checkbox" id="lead" name="lead">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

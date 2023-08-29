@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-overflow:initial;
+}
+
+.space{
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+h2{
+    color: green;
+}
+
+body{
+    background-color: rgba(117, 189, 8, 0.562);
+}
+
+.highlight{
+    background-color: burlywood;
+}
+
+.box{
+    font-size: larger;
+    color: brown;
+}
+
+.color{
+    font-family:monospace;
+}
+
+.border{
+    border: 2px solid palevioletred;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.menu{
+    background-color: bisque;
+}
+
+.menu ol li{
+    background-color: rgb(46, 154, 158);
+    padding:3px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.custom{
+    text-decoration: overline;
+}
+
+.borderClass{
+    border: solid rgb(34, 0, 97);
+    border-width: 0 3px 0 0;
+    display: inline-block;
+}
+
+.rounded-corner{
+    border: 3px solid red;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.margin{
+    background-color: rgb(37, 117, 77);
+    margin: 55px;
+}
+
+.padding{
+    padding: 15px;
+    background-color: rgb(37, 117, 77) ;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+footer{
+    background-color: grey;
+    padding: 5px;
+    width:100%;
+    text-align: center;
+}
+
+.inline-box{
+    display: inline-block;
+    background-color: cadetblue;
+}
+
+.background{
+    background-repeat: no-repeat;
+}
+
+.button a button{
+    background-color: aquamarine;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.button a button:hover{
+    background-color: rgb(2, 124, 84);
+    padding: 8px 13px;
+    border-radius: 20px;
+    font-size: large;
+}
+
+.rtl{
+    direction: rtl ;
+}
+
+.widget {
+    width: 300px;
+    height: 200px;
+    background: linear-gradient(to right, #5ee211, #dd5a03);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.frame{
+    opacity: 0.5;
+}
+
+.header_vert{
+    background-color: #31354e;
+    display: inline-block;
+    flex-direction:column;
+    padding: 1% 8% 150% 1%;
+    position: absolute;
+}
+
+.header_horizontal{
+    background-color: rgb(165, 163, 163);
+    padding: 40px;
+    position: static;
+    width: 100%;
+}
+
+.header_horizontal p{
+    margin-left: 10%;
+    font-weight: 500;
+    font-size: larger;
+    margin-top: -15px;
+}
+
+.small_header{
+    background-color: rgb(209, 204, 204);
+    padding: 5px;
+    position: static;
+    margin-top: -30px;
+    width: 100%;
+    
+}
+
+.small_header p{
+    display: flex;
+    margin-left: 12.5%;
+    font-size: small;
+    opacity: 0.7;
+}
+
+.discounts {
+    display: flex;
+    margin-left: 11.5%;
+    padding: 20px;
+    justify-content:space-between;
+}
+
+.discounts p{
+    font-size:large;
+    padding-top: 5px;
+}
+
+.discounts button{
+    background-color: #31354e;
+    border-radius: 12px;
+    padding: 7px;
+    color: white;
+}
+
+.category{
+    margin-top: 20px;
+    margin-left: 13%;
+    display: flex;
+}
+
+.category p{
+    font-size: xx-large;
+    margin-right: 10px;
+    font-weight: 400;
+    padding-top: 2px;
+}
+
+.category .symbol{
+    border: 1px solid rgb(197, 195, 195);
+    border-radius: 100%;
+    padding: 0.5% 1%;
+    font-size: larger;
+    font-weight: 1000;
+}
+
+.category_name{
+    margin-left: 13%;
+    margin-top: 20px;
+    display: flex;
+    border: 1px solid rgb(212, 207, 207);
+    border-radius: 10px;
+    padding: 15px;
+    width: 120%;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow:visible
+}
+
+.category_name .start{
+    display: flex;
+}
+
+.category_name .start .name{
+    padding-left: 20%;
+    font-size: larger;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.category_name .centre{
+    background-color: #31354e;
+    padding: 12px 20px 0 20px; 
+    border-radius: 10px;
+    color: white;
+}
+
+.one{
+    display: flex;
+    flex-direction: column;
+}
+
+.category {
+    display: flex;    
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+}

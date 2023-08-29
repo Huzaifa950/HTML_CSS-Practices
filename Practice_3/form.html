@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="GET" novalidate>
+        <div style="margin-top:10px;">
+            <h1>Inputs</h1>
+            <label for="firstName">First Name:</label>
+            <input id="firstName" name="firstName" type="text" placeholder="First Name" required> 
+        </div>
+        <div style="margin-top: 20px;">
+            <label for="numberFiled">Number:</label>
+            <input id="numberFiled" name="numberFiled" type="number" placeholder="Age" min="18" max="25" required> 
+        </div>
+        <div style="margin-top: 20px;">
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="password" required> 
+        </div>
+        <div style="margin-top: 20px;">
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email"> 
+        </div>
+        <div style="margin-top: 20px;">
+            <label for="radio">Male:</label>
+            <input id="radio" name="radio" type="radio"> 
+        </div>
+        <div style="margin-top: 20px;">
+            <label for="radio">Female:</label>
+            <input id="radio" name="radio" type="radio"> 
+        </div>
+        <div style="margin-top: 20px;">
+            <label for="checkbox">CheckBox 1:</label>
+            <input id="checkbox1" name="checkbox" type="checkbox"> 
+            <br>
+            <label for="checkbox">CheckBox 2:</label>
+            <input id="checkbox2" name="checkbox" type="checkbox"> 
+            <br>
+            <label for="checkbox">CheckBox 3:</label>
+            <input id="checkbox3" name="checkbox" type="checkbox"> 
+        </div>
+        <div>
+            <select class="dropDown" name="dropDown" id="dropDown" style="width: 200px;" required multiple>
+                <option value="Select" disabled selected>Select Country</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="India">India</option>
+                <option value="America">America</option>
+                <option value="China">China</option>
+            </select>
+        </div>
+        <br><br><br><br>
+        <div>
+            <textarea rows="4" cols="23" maxlength="10"></textarea>
+        </div>
+        <div>
+            <input type="date">
+            <input type="file">
+            <input type="color">
+            <input type="month">
+            <input type="week">
+            <input type="Range" min="200" max="500" step="50">
+
+        </div>
+        <div>
+            <input type="submit" name="submit" value="submit" style="width: 100px; height: 40px; border-radius: 10px;"> 
+        </div>
+    </form>
+    
+</body>
+</html>

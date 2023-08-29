@@ -1,0 +1,22 @@
+.header{
+    color: blueviolet;
+    font-size: 100px;
+}
+
+.black_background{
+    background-color: black;
+}
+
+.header{
+    background-color: black;
+}
+
+.all{
+    color:white;
+    background-color: purple;
+}
+
+#all{
+    color:rgb(55, 92, 132)    !important;
+    background-color: rgb(14, 108, 108);
+}

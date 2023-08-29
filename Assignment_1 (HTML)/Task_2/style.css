@@ -1,0 +1,50 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.task6{
+    background-image: url('./pexels-alexander-kovalev-2847648.jpg');
+    opacity: 50%;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.task8{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.task9{
+    color: rgb(15, 88, 90);
+    margin-top: 100px;
+}
+
+
+.task9 h2{
+    margin-bottom: 100px;
+}
+
+.margin{
+    background-color: rgb(55, 160, 163);
+    margin: 20px;
+    
+}
+
+.padding{
+    background-color: rgb(175, 142, 101);
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.width{
+    background-color: rgb(84, 57, 185);
+    max-width:20px;
+}
+
+.name{
+    margin-top: 100px;
+    color: white;
+    background-color: #569874;
+    text-align: right;
+}

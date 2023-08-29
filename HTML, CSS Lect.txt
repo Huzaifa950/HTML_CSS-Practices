@@ -1,0 +1,111 @@
+03000972952   (Ali Raza)
+
+HTML is not a programming language
+Day_1:-
+
+Attributes are part of elements.
+Attributes --> Class, id, height, width, style.
+
+Content is placed between starting and ending tag.          
+Properties are placed inside starting tag.
+
+When we do not require any content and properties inside any tag we simply write *<header />*  instead of *<header></header>*.
+
+<hr> tag is used to display text;
+
+
+Day_2:-
+
+Priority -->   Inline Style > id > class  ,  Directly Tag (Selectors)
+
+href == HyperText Reference
+
+Relative URLS --> Within System or Server
+Absolute URLS --> Those directing you to some page outside pc (i.e http)
+
+******************Image Map (Assignment)***************
+Hint --> <div> --> <img src="" /> --> <map name='name'> --> usemap='name'
+--> <area shape='rectangle' coords='' href='' alt='LeetCode'> 
+
+wxyz
+w == Space from left
+x == Space from top
+y == Space from right
+z == Space from bottom
+
+Outer Space is called Margin
+Inside Space is called Padding
+
+
+Day_3:-
+
+iframe tag is used when we want to load page.
+href doesnot work on buttons.
+
+CRUD  --> Create Read Update Delete
+
+Create --> POST
+Read --> GET
+Update --> PUT
+Delete --> DELETE
+
+Day_4:-
+React--> JavaScript with BackEnd
+
+HTML 5
+CSS 3
+CSS --> Cascading Style Sheet
+
+CSS overriding
+
+body tag --> Parent
+child tags --> All tags inside parent
+
+
+RGB coloring --> rgb values range 0-255
+	     --> rgba  --> a == alpha (transparency)
+
+
+
+Header is a Semantic tag.
+
+Positions  -->  Static/ Relative/ Absolute/ Fixed
+
+Selectors  --> Class (.className)/ Id (#idName)/ Tag (tagName)/ Grouping Selector (tagName, tagName, tagName)
+
+Combinator Selectors --> div h2 
+
+class names have more priority as compared to tag names
+
+Adjacent Selectots --> In case of Siblings we use '+' sign.
+
+
+
+flexbox --> flexibility
+Parent --> Flexbox
+
+align-items      --> vertical allign
+justify-content  --> horizontal 
+
+
+
+
+DOM --> Document Object Model
+
+Doc --> HTML File
+
+How to 
+	--> manipulate HTML Element.
+	--> CSS classes
+	--> Handle Events
+
+getElementByID  --> Method/Function
+innerHTML       --> Property
+
+id is best way to track element in DOM.
+
+const input = document.getElementById('----');
+input.setAttribute
+
+
+nodes, connection_list, git
